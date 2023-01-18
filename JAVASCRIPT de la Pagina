@@ -1,0 +1,12 @@
+function login(){
+    var user, password
+
+    user= document.getElementById("usuario").value;
+    password = document.getElementById("contrasena").value;
+
+    if (user == "JoseSpelt" && password == "JS2023"){
+        window.location = "pagina.html";
+    } else{
+        alert("Contraseña Incorrecta")
+    }
+}
